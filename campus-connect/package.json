@@ -1,0 +1,36 @@
+{
+  "name": "campus-connect",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "api": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "express-rate-limit": "^8.7.5",
+    "helmet": "^8.3.0",
+    "morgan": "^1.12.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "json-server": "^0.17.4",
+    "oxlint": "^1.90.0",
+    "supertest": "^7.3.2",
+    "vite": "^8.3.6",
+    "vitest": "^4.1.12"
+  },
+  "keywords": []
+}
